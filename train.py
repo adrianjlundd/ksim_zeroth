@@ -2042,15 +2042,16 @@ if __name__ == "__main__":
             learning_rate=1e-3,
             num_passes=4,
             # epochs_per_log_step=1,
-            rollout_length_seconds=8.0,
+            rollout_length_seconds=60.0,
             # Simulation parameters.
             dt=0.001,
             ctrl_dt=0.02,
-            iterations=8,
-            ls_iterations=8,
+            iterations=50,
+            ls_iterations=50,
             # Checkpointing parameters.
             save_every_n_seconds=60,
             valid_every_n_steps=5,
+            logdir="/cluster/work/adriajl/ksim_zeroth/slurm_outputs/tensorboard",
             # render_full_every_n_seconds=10,
             render_azimuth=145.0,
             # GUG: Changed max latency from 0.10 to 0.03 to be within 1.5x of ctrl_dt (0.02)

@@ -1,0 +1,27 @@
+/cluster/apps/eb/software/Anaconda3/2024.02-1/lib/python3.10/site-packages/conda/base/context.py:202: FutureWarning: Adding 'defaults' to channel list implicitly is deprecated and will be removed in 25.3. 
+
+To remove this warning, please choose a default channel explicitly with conda's regular configuration system, e.g. by adding 'defaults' to the list of channels:
+
+  conda config --add channels defaults
+
+For more information see https://docs.conda.io/projects/conda/en/stable/user-guide/configuration/use-condarc.html
+
+  deprecated.topic(
+/cluster/apps/eb/software/Anaconda3/2024.02-1/lib/python3.10/site-packages/conda/base/context.py:202: FutureWarning: Adding 'defaults' to channel list implicitly is deprecated and will be removed in 25.3. 
+
+To remove this warning, please choose a default channel explicitly with conda's regular configuration system, e.g. by adding 'defaults' to the list of channels:
+
+  conda config --add channels defaults
+
+For more information see https://docs.conda.io/projects/conda/en/stable/user-guide/configuration/use-condarc.html
+
+  deprecated.topic(
+
+The Poetry configuration is invalid:
+  - project.name must match pattern ^([a-zA-Z\d]|[a-zA-Z\d][\w.-]*[a-zA-Z\d])$
+  - Either [project.name] or [tool.poetry.name] is required in package mode.
+
+Traceback (most recent call last):
+  File "/cluster/work/adriajl/ksim_zeroth/train.py", line 11, in <module>
+    import attrs
+ModuleNotFoundError: No module named 'attrs'
